@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب الشاطري للخدمات الإلكترونية</title>
+    
+    <!-- رابط مكتبة Font Awesome البديل -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2c2c2c; /* خلفية رمادية فاتحة بدل من الأسود الداكن */
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+        }
+
+        header {
+            background: linear-gradient(to right, #333333, #4d4d4d); /* تدرج ألوان رمادية */
+            color: #00ff99;
+            padding: 50px;
+            text-align: center;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            color: #ccc;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #444; /* تخفيف الخلفية */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        nav ul li {
+            float: right;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #00ff99;
+            color: #000;
+        }
+
+        section {
+            padding: 60px;
+            margin: 20px;
+            background-color: #3d3d3d; /* خلفية رمادية متوسطة */
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.2rem;
+        }
+
+        section ul li {
+            margin-bottom: 15px;
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #00ff99;
+        }
+
+        footer {
+            background-color: #333;
+            color: #00ff99;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header class="fade-in">
+        <h1>مكتب الشاطري للخدمات الإلكترونية</h1>
+        <p>أكبر مكتب لخدمات الإقامة والكفالة والخدمات الحكومية في السعودية</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="services.html">خدماتنا</a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+    </nav>
+
+    <section id="services" class="fade-in">
+        <h2>خدماتنا</h2>
+        <ul>
+            <li><i class="fas fa-tools service-icon"></i> تجديد الإقامة للأجانب</li>
+            <li><i class="fas fa-handshake service-icon"></i> تغيير الكفالة</li>
+            <li><i class="fas fa-building service-icon"></i> إصدار وتجديد الرخص التجارية</li>
+            <li><i class="fas fa-briefcase service-icon"></i> خدمات أخرى متنوعة</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>اتصل بنا</h2>
+        <p>📞 رقم الهاتف: 123-456-7890</p>
+        <p>✉️ البريد الإلكتروني: info@alshatari.com</p>
+        <p>📍 العنوان: شارع الملك فيصل، جدة، السعودية</p>
+    </section>
+
+    <footer class="fade-in">
+        <p>&copy; 2024 مكتب الشاطري للخدمات الإلكترونية - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>

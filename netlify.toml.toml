@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = true

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://venerable-beijinho-3bd0b8.netlify.app/sitemap.xml

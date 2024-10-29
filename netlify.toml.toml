@@ -1,3 +1,4 @@
+ HEAD
 [build]
   publish = "."
   command = ""
@@ -7,3 +8,13 @@
   to = "/sitemap.xml"
   status = 200
   force = true
+[build]
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = true
+ 1a855716ee44c59eaf1b962f6ed56ed61dd6b9c9
